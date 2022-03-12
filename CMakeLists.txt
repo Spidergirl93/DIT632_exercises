@@ -9,4 +9,4 @@ add_executable(example_3 ex_3.c)
 add_executable(example_4 ex_4.c)
 add_executable(example_5 ex_5.c)
 add_executable(example_6 ex_6.c)
-
+add_executable(example_7 ex_7.c)
