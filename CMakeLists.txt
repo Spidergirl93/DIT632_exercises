@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 3.21)
+project(exam_preparation C)
+
+set(CMAKE_C_STANDARD 99)
+
+add_executable(example_1 ex_1.c)
+add_executable(example_2 ex_2.c)
+add_executable(example_3 ex_3.c)
+add_executable(example_4 ex_4.c)
+add_executable(example_5 ex_5.c)
+add_executable(example_6 ex_6.c)
+
