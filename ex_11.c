@@ -41,12 +41,15 @@ int main()
     the_bit = find_bit(input_bit, input_bin);
 
     printf("Bit number %d of %d is set (%c)", *input_bit, *input_num, the_bit);
+
+    free(input_num);
+    free(input_bit);
     return 0;
 
 }
 
 char find_bit(int *bit_num, char bin[32]) {
-    char bit = 0;
+    char bit;
     bit = bin[*bit_num];
     return bit;
 }
