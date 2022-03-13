@@ -3,6 +3,7 @@
 //
 
 /**
+ * (((NOT FINISHED YET)))
  * Write a program in C to print all permutations of a given string using pointers.
    Expected Output :
      The permutations of the string are :
@@ -12,8 +13,6 @@
  */
 
 
-
-// C program to print all permutations with duplicates allowed
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
